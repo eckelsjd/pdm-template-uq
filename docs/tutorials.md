@@ -8,6 +8,6 @@ functions and methods. These are better reserved for the API reference.
 
 ## Code snippet example
 Here is an example of how to cut and paste from your source code directly into the documentation.
-```python title="pdm_project_uq.example.py"
---8<-- "pdm_template_uq/example.py:example_name"
+```python title="example.py"
+--8<-- "pdm-template-uq/example.py:example_name"
 ```

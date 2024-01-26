@@ -3,17 +3,24 @@
 [![PyPI](https://img.shields.io/pypi/v/pdm_template_uq?logo=python&logoColor=%23cccccc)](https://pypi.org/project/pdm_template_uq)
 [![Python 3.11](https://img.shields.io/badge/python-3.11+-blue.svg?logo=python&logoColor=cccccc)](https://www.python.org/downloads/)
 
-A brief, one-line description of your project.
+Use this template to set up your pdm project using:
+```shell
+pdm init https://github.com/eckelsjd/pdm-template-uq.git
+```
+
+**THE REST OF THIS README** will be populated with your project information. PLEASE IGNORE. You can delete
+this text in your own readme file. Note that you will also have to manually fill in all broken links with your own
+information (such as Github repo links, PyPI package links, etc.)
 
 ## Installation
 You can install normally with:
 ```shell
-pip install pdm_template_uq
+pip install pdm-template-uq
 ```
 If you are using [pdm](https://github.com/pdm-project/pdm) in your own project, then you can use:
 ```shell
 cd <your-pdm-project>
-pdm add pdm_template_uq
+pdm add pdm-template-uq
 ```
 You can also quickly set up a development environment with:
 ```shell
@@ -25,9 +32,9 @@ pdm install  # reads pdm.lock and sets up an identical venv
 
 ## Quickstart
 ```python
-import pdm_template_uq
+import pdm-template-uq
 
-pdm_template_uq.do_something()
+pdm-template-uq.do_something()
 
 print('Wow!')
 ```

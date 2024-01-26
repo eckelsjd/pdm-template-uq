@@ -9,6 +9,6 @@ of steps and short explanations of *what* (read: not *why* or *how*) you are acc
 ## How to do something
 We are going to try to do something with our code.
 
-1. Import the library into your code: `import pdm_template_uq`
-2. Do something with the code: `pdm_template_uq.do_something()`
+1. Import the library into your code: `import pdm-template-uq`
+2. Do something with the code: `pdm-template-uq.do_something()`
 3. That's it!

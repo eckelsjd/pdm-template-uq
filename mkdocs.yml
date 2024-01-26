@@ -1,7 +1,7 @@
 site_name: My Scientific Computing Package
 site_url: https://eckelsjd.github.io/pdm-template-uq/
 site_author: Your name
-repo_name: eckelsjd/pdm-template-uq
+repo_name: user-name/repo-name
 repo_url: https://github.com/eckelsjd/pdm-template-uq.git
 copyright: Copyright &copy 2023 Your name
 
@@ -57,9 +57,9 @@ nav:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/eckelsjd
+      link: https://github.com/<your-username>
     - icon: fontawesome/brands/python
-      link: https://pypi.org/project/pdm-template-uq/
+      link: https://pypi.org/project/<your-project-name>/
 
 extra_javascript:
   - javascripts/mathjax.js  # For displaying latex equations with $$ notation

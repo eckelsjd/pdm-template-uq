@@ -44,6 +44,9 @@ filterwarnings = [
     "ignore::DeprecationWarning"
 ]
 
+[tool.pdm]
+distribution = true
+
 [tool.pdm.version]
 source = "file"
 path = "src/pdm_template_uq/__init__.py"
@@ -53,9 +56,6 @@ post_init = "pdm install"
 test = "pytest --cov=pdm_template_uq tests"
 docs = "mkdocs serve"
 release = "python release.py"
-
-[tool.pdm]
-package-type = "library"
 
 [tool.pdm.dev-dependencies]
 dev = [
